@@ -1,0 +1,11 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository
+        maven { url 'https://www.jitpack.io' }// is going to shut down soon
+    }
+}
+rootProject.name = "MigrationDemo"
+include ':app'
